@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database (generated at runtime, not source code)
+data/leads.db
+data/uploads/
+
+# OS/editor junk
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,26 @@
+# --- Core agent framework ---
+langchain>=0.3,<1.0
+langchain-community>=0.3,<1.0
+
+# --- LLM / Hugging Face ---
+huggingface_hub
+langchain-huggingface<1.0
+httpx
+
+# --- Data source ---
+apify-client
+
+# --- Data processing ---
+rapidfuzz
+phonenumbers
+pandas
+openpyxl
+
+# --- Database ---
+# sqlite3 is built into Python, no install needed
+
+# --- Dashboard ---
+streamlit
+
+# --- Config / env ---
+python-dotenv
